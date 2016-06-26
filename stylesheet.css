@@ -9,54 +9,36 @@ div {
 	z-index: 1;
 	position: fixed;
 	width: 98%;
-	margin-top: -10px;
-	height: 50px;
+	margin-top: 4px;
+	height: 65px;
 	background-color: #6699ff;
-	margin-bottom: 10px;
+	margin-bottom: 60px;
 	text-align: center;
 }
 
 #intro {
-	padding-top: 5px;
 	margin-left: 5px;
-	font-size: 18px;
+	font-size: 35px;
 	font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
 	color: #333333;
-}
-
-#navbar {
-	position: fixed;
-	margin-top: -10px;
-	left: 50%;
-	margin-left: -254px;
-}
-
-ul {
-	list-style-type: none;
-	position: fixed;
-	margin: -10px;
-}
-
-li {
-	display: inline;
-	padding: 5px;
-	font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
-	color: #333333;
-	background-color: #6699ff;
+	text-align: center;
+	margin-bottom: 60px;
 }
 
 .left {
-	position: relative;
-	float: left;
-	margin-top: 30px;
-	width: 80%;
-	height: 500px;
+	position: absolute;
+	margin: auto;
+	margin-left: 50px;
+	margin-right: 50px;
+	width: 89%;
+	height: 1900px;
 	background-color: #3374ff;
 	margin-bottom: 10px;
+	margin-top: 90px;
 }
 
-h3 {
-	margin-left: 5px;
+h1 {
+	margin-left: 375px;
 	margin-bottom: 15px;
 	font-family: cursive;
 }
@@ -67,6 +49,7 @@ h3 {
 	margin-top: -10px;
 	font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
 	color: #333333;
+	font-size: 20px;
 }
 
 .left ul {
@@ -79,30 +62,28 @@ h3 {
 	margin-right: 5px;
 	font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
 	color: #333333;
+	font-size: 20px;
 }
 
-.right {
-	position: relative;
-	float: right;
-	margin-top: 30px;
-	width: 20%;
-	height: 500px;
-	background-color: #0051ff;
-	margin-bottom: 10px;
+img {
+	height: 350px;
+	width: 370px;
+	margin-left: 280px;
 }
 
 #footer {
-	position: relative;
+	position: fixed;
+	bottom: -20px;
 	height: 50px;
 	background-color: ##6699ff;
-	clear: both;
-	font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
-	color: #333333;
-	font-size: 18px;
-	text-align: center;
+	margin: 2px solid black;
 }
 
 #footer p {
 	position: relative;
 	padding-top: 15px;
+	font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	color: #333333;
+	font-size: 18px;
+	text-align: center;
 }
